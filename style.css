@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.Bob{
+    color: orange;
+}
+.right img{
+    width: 100%;
+}
+.first-stage{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.hire{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    background-color: orange;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
