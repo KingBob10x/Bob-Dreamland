@@ -1,26 +1,89 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-h1{
+.Welcome{
     font-size: 50px;
+}
+.sec3h1{
+    font-size: 40px;
+}
+.sec3h3{
+    color: rgba(238,9,110,1);
+    font-weight: bold;
+}
+.BD{
+    font-size: 40px;
+}
+.Exp{
+    margin-left: 20px;
 }
 .Bob{
     color: orange;
 }
-.right img{
+.GP img{
     width: 100%;
 }
-.first-stage{
+.stages{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 3%;
 }
+.mtop{
+    margin-top: 25px;
+}
 .hire{
     text-decoration: none;
     color: white;
     font-weight: 900;
-    background-color: orange;
+    background: rgb(131,58,180);
+    background: 
+    linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(238,9,110,1) 84%);
     padding: 10px 50px;
     border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid-banner{
+    background-image: url(images/mid-banner.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.bottom{
+    background-image: url(images/bottom-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 75%;
+}
+section{
+    height: 500px;
+    margin-bottom: 100px;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    padding-right: 10px;
+}
+.footer{
+    text-align: center;
+    color: gray;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.FStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.BabyWeb{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.White-bg{
+    background-color: white;
 }
